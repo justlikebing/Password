@@ -18,7 +18,6 @@ public class Password {
             char randomChar = CHARACTERS.charAt(randomIndex);
             passwordBuilder.append(randomChar);
         }
-
         return passwordBuilder.toString();
     }
 }
