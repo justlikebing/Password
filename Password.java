@@ -9,7 +9,6 @@ public class Password {
         String password = generatePassword(passwordLength);
         System.out.println("Suggested password: " + password);
     }
-
     public static String generatePassword(int length) {
         SecureRandom random = new SecureRandom();
         StringBuilder passwordBuilder = new StringBuilder(length);
