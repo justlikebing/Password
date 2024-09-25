@@ -1,5 +1,6 @@
 import java.security.SecureRandom;
 
+
 public class Password {
     private static final String CHARACTERS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+[{]}\\|;:'\",<.>/?";
 
